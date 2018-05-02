@@ -1,0 +1,10 @@
+[Core]
+name = dice
+module = dice
+
+[Documentation]
+description = throw a dice.
+
+[Python]
+version = 3
+

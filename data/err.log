@@ -1,0 +1,557 @@
+2018-04-30 01:47:16,300 INFO     errbot.specific_plugin_manager storage search paths {'c:\\slack_bot\\venv\\lib\\site-packages\\errbot\\storage'}
+2018-04-30 01:47:16,303 INFO     errbot.specific_plugin_manager Found those plugings available:
+2018-04-30 01:47:16,303 INFO     errbot.specific_plugin_manager 	    Memory  (c:\slack_bot\venv\lib\site-packages\errbot\storage\memory.py)
+2018-04-30 01:47:16,303 INFO     errbot.specific_plugin_manager 	     Shelf  (c:\slack_bot\venv\lib\site-packages\errbot\storage\shelf.py)
+2018-04-30 01:47:16,304 INFO     errbot.bootstrap          Found Storage plugin: 'Shelf'
+Description: This is the storage plugin for the traditional shelf store for errbot.
+2018-04-30 01:47:16,305 WARNING  yapsy                     Plugin candidate 'c:\slack_bot\venv\lib\site-packages\errbot\storage\memory.plug'  rejected by strategy 'SpecificBackendLocator'
+2018-04-30 01:47:16,318 INFO     errbot.specific_plugin_manager backends search paths {'c:\\slack_bot\\venv\\lib\\site-packages\\errbot\\backends'}
+2018-04-30 01:47:16,327 INFO     errbot.specific_plugin_manager Found those plugings available:
+2018-04-30 01:47:16,328 INFO     errbot.specific_plugin_manager 	   Graphic  (c:\slack_bot\venv\lib\site-packages\errbot\backends\graphic.py)
+2018-04-30 01:47:16,328 INFO     errbot.specific_plugin_manager 	   Hipchat  (c:\slack_bot\venv\lib\site-packages\errbot\backends\hipchat.py)
+2018-04-30 01:47:16,329 INFO     errbot.specific_plugin_manager 	       IRC  (c:\slack_bot\venv\lib\site-packages\errbot\backends\irc.py)
+2018-04-30 01:47:16,329 INFO     errbot.specific_plugin_manager 	      Null  (c:\slack_bot\venv\lib\site-packages\errbot\backends\null.py)
+2018-04-30 01:47:16,329 INFO     errbot.specific_plugin_manager 	     Slack  (c:\slack_bot\venv\lib\site-packages\errbot\backends\slack.py)
+2018-04-30 01:47:16,329 INFO     errbot.specific_plugin_manager 	  Telegram  (c:\slack_bot\venv\lib\site-packages\errbot\backends\telegram_messenger.py)
+2018-04-30 01:47:16,330 INFO     errbot.specific_plugin_manager 	      Test  (c:\slack_bot\venv\lib\site-packages\errbot\backends\test.py)
+2018-04-30 01:47:16,330 INFO     errbot.specific_plugin_manager 	      Text  (c:\slack_bot\venv\lib\site-packages\errbot\backends\text.py)
+2018-04-30 01:47:16,330 INFO     errbot.specific_plugin_manager 	      XMPP  (c:\slack_bot\venv\lib\site-packages\errbot\backends\xmpp.py)
+2018-04-30 01:47:16,330 INFO     errbot.bootstrap          Found Backend plugin: 'Slack'
+						Description: This is the slack backend for Err.
+2018-04-30 01:47:16,332 WARNING  yapsy                     Plugin candidate 'c:\slack_bot\venv\lib\site-packages\errbot\backends\graphic.plug'  rejected by strategy 'SpecificBackendLocator'
+2018-04-30 01:47:16,332 WARNING  yapsy                     Plugin candidate 'c:\slack_bot\venv\lib\site-packages\errbot\backends\hipchat.plug'  rejected by strategy 'SpecificBackendLocator'
+2018-04-30 01:47:16,333 WARNING  yapsy                     Plugin candidate 'c:\slack_bot\venv\lib\site-packages\errbot\backends\irc.plug'  rejected by strategy 'SpecificBackendLocator'
+2018-04-30 01:47:16,334 WARNING  yapsy                     Plugin candidate 'c:\slack_bot\venv\lib\site-packages\errbot\backends\null.plug'  rejected by strategy 'SpecificBackendLocator'
+2018-04-30 01:47:16,336 WARNING  yapsy                     Plugin candidate 'c:\slack_bot\venv\lib\site-packages\errbot\backends\telegram_messenger.plug'  rejected by strategy 'SpecificBackendLocator'
+2018-04-30 01:47:16,337 WARNING  yapsy                     Plugin candidate 'c:\slack_bot\venv\lib\site-packages\errbot\backends\test.plug'  rejected by strategy 'SpecificBackendLocator'
+2018-04-30 01:47:16,338 WARNING  yapsy                     Plugin candidate 'c:\slack_bot\venv\lib\site-packages\errbot\backends\text.plug'  rejected by strategy 'SpecificBackendLocator'
+2018-04-30 01:47:16,339 WARNING  yapsy                     Plugin candidate 'c:\slack_bot\venv\lib\site-packages\errbot\backends\xmpp.plug'  rejected by strategy 'SpecificBackendLocator'
+2018-04-30 01:47:16,683 INFO     errbot                    webhooks:  Flag to bind /echo to                           echo
+2018-04-30 01:47:16,685 INFO     errbot.backends.slack     Verifying authentication token
+2018-04-30 01:47:18,046 INFO     errbot.backends.slack     Connecting to Slack real-time-messaging API
+2018-04-30 01:47:19,313 INFO     errbot.backends.slack     Connected
+2018-04-30 01:47:19,659 INFO     errbot.core               Activate internal commands
+2018-04-30 01:47:19,660 INFO     errbot.plugin_manager     Activate bot plugins...
+2018-04-30 01:47:19,661 INFO     errbot.plugin_manager     Activate plugin: ACLs
+2018-04-30 01:47:19,662 INFO     errbot.plugin_manager     Activating ACLs with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-04-30 01:47:19,664 INFO     errbot.core_plugins.wsview Checking ACLS for webhooks
+2018-04-30 01:47:19,672 INFO     errbot.plugin_manager     Activate plugin: Backup
+2018-04-30 01:47:19,674 INFO     errbot.plugin_manager     Activating Backup with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-04-30 01:47:19,681 INFO     errbot.core_plugins.wsview Checking Backup for webhooks
+2018-04-30 01:47:19,682 INFO     errbot.plugin_manager     Activate plugin: ChatRoom
+2018-04-30 01:47:19,684 INFO     errbot.plugin_manager     Activating ChatRoom with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-04-30 01:47:19,691 INFO     errbot.core_plugins.wsview Checking ChatRoom for webhooks
+2018-04-30 01:47:19,693 INFO     errbot.plugin_manager     Activate plugin: CommandNotFoundFilter
+2018-04-30 01:47:19,695 INFO     errbot.plugin_manager     Activating CommandNotFoundFilter with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-04-30 01:47:19,702 INFO     errbot.core_plugins.wsview Checking CommandNotFoundFilter for webhooks
+2018-04-30 01:47:19,716 INFO     errbot.plugin_manager     Activate plugin: Flows
+2018-04-30 01:47:19,718 INFO     errbot.plugin_manager     Activating Flows with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-04-30 01:47:19,728 INFO     errbot.core_plugins.wsview Checking Flows for webhooks
+2018-04-30 01:47:19,730 INFO     errbot.plugin_manager     Activate plugin: Health
+2018-04-30 01:47:19,732 INFO     errbot.plugin_manager     Activating Health with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-04-30 01:47:19,744 INFO     errbot.core_plugins.wsview Checking Health for webhooks
+2018-04-30 01:47:19,751 INFO     errbot.plugin_manager     Activate plugin: Help
+2018-04-30 01:47:19,755 INFO     errbot.plugin_manager     Activating Help with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-04-30 01:47:19,765 INFO     errbot.core_plugins.wsview Checking Help for webhooks
+2018-04-30 01:47:19,767 INFO     errbot.plugin_manager     Activate plugin: Plugins
+2018-04-30 01:47:19,769 INFO     errbot.plugin_manager     Activating Plugins with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-04-30 01:47:19,778 INFO     errbot.core_plugins.wsview Checking Plugins for webhooks
+2018-04-30 01:47:19,780 INFO     errbot.plugin_manager     Activate plugin: TextCmds
+2018-04-30 01:47:19,781 INFO     errbot.plugin_manager     Plugin TextCmds has no section [Python]. Assuming this plugin is running only under python 3.
+2018-04-30 01:47:19,783 INFO     errbot.plugin_manager     Activating TextCmds with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-04-30 01:47:19,785 INFO     errbot.core_plugins.wsview Checking TextModeCmds for webhooks
+2018-04-30 01:47:19,787 INFO     errbot.plugin_manager     Activate plugin: Utils
+2018-04-30 01:47:19,788 INFO     errbot.plugin_manager     Activating Utils with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-04-30 01:47:19,795 INFO     errbot.core_plugins.wsview Checking Utils for webhooks
+2018-04-30 01:47:19,797 INFO     errbot.plugin_manager     Activate plugin: VersionChecker
+2018-04-30 01:47:19,798 INFO     errbot.plugin_manager     Activating VersionChecker with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-04-30 01:47:19,808 INFO     errbot.core_plugins.wsview Checking VersionChecker for webhooks
+2018-04-30 01:47:19,810 INFO     errbot.plugin_manager     Activate plugin: Webserver
+2018-04-30 01:47:19,810 INFO     errbot.plugin_manager     Activating Webserver with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-04-30 01:47:19,811 INFO     errbot.plugins.Webserver  Webserver is not configured. Forbid activation
+2018-04-30 01:47:19,812 INFO     errbot.core_plugins.wsview Checking Webserver for webhooks
+2018-04-30 01:47:19,812 INFO     errbot.core_plugins.wsview Webhook routing echo
+2018-04-30 01:47:19,813 INFO     errbot.core               
+2018-04-30 01:47:19,813 INFO     errbot.core               Notifying connection to all the plugins...
+2018-04-30 01:47:19,814 INFO     errbot.plugins.ChatRoom   Callback_connect
+2018-04-30 01:47:19,815 INFO     errbot.core               Plugin activation done.
+2018-04-30 01:50:54,713 ERROR    errbot.backends.slack     Error reading from RTM stream:
+Traceback (most recent call last):
+  File "c:\slack_bot\venv\lib\site-packages\slackclient\server.py", line 264, in websocket_safe_read
+    data += "{0}\n".format(self.websocket.recv())
+  File "c:\slack_bot\venv\lib\site-packages\websocket\_core.py", line 300, in recv
+    opcode, data = self.recv_data()
+  File "c:\slack_bot\venv\lib\site-packages\websocket\_core.py", line 317, in recv_data
+    opcode, frame = self.recv_data_frame(control_frame)
+  File "c:\slack_bot\venv\lib\site-packages\websocket\_core.py", line 330, in recv_data_frame
+    frame = self.recv_frame()
+  File "c:\slack_bot\venv\lib\site-packages\websocket\_core.py", line 364, in recv_frame
+    return self.frame_buffer.recv_frame()
+  File "c:\slack_bot\venv\lib\site-packages\websocket\_abnf.py", line 361, in recv_frame
+    self.recv_header()
+  File "c:\slack_bot\venv\lib\site-packages\websocket\_abnf.py", line 309, in recv_header
+    header = self.recv_strict(2)
+  File "c:\slack_bot\venv\lib\site-packages\websocket\_abnf.py", line 396, in recv_strict
+    bytes_ = self.recv(min(16384, shortage))
+  File "c:\slack_bot\venv\lib\site-packages\websocket\_core.py", line 434, in _recv
+    return recv(self.sock, bufsize)
+  File "c:\slack_bot\venv\lib\site-packages\websocket\_socket.py", line 94, in recv
+    "Connection is already closed.")
+websocket._exceptions.WebSocketConnectionClosedException: Connection is already closed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\slack_bot\venv\lib\site-packages\errbot\backends\slack.py", line 388, in serve_once
+    for message in self.sc.rtm_read():
+  File "c:\slack_bot\venv\lib\site-packages\slackclient\client.py", line 125, in rtm_read
+    json_data = self.server.websocket_safe_read()
+  File "c:\slack_bot\venv\lib\site-packages\slackclient\server.py", line 281, in websocket_safe_read
+    raise SlackConnectionError("Unable to send due to closed RTM websocket")
+slackclient.server.SlackConnectionError: Unable to send due to closed RTM websocket
+2018-04-30 01:50:54,749 INFO     errbot.core               Disconnect callback, deactivating all the plugins.
+2018-04-30 01:50:54,809 INFO     errbot.backends.base      Reconnecting in 1 seconds (0 attempted reconnections so far)
+2018-04-30 01:50:55,823 INFO     errbot.backends.slack     Verifying authentication token
+2018-04-30 01:50:57,143 ERROR    errbot.backends.base      Exception occurred in serve_once:
+Traceback (most recent call last):
+  File "c:\slack_bot\venv\lib\site-packages\errbot\backends\base.py", line 686, in serve_forever
+    if self.serve_once():
+  File "c:\slack_bot\venv\lib\site-packages\errbot\backends\slack.py", line 371, in serve_once
+    raise SlackAPIResponseError(error="Couldn't authenticate with Slack. Server said: %s" % self.auth['error'])
+yapsy_loaded_plugin_Slack_0.SlackAPIResponseError
+2018-04-30 01:50:57,146 INFO     errbot.backends.base      Reconnecting in 4.457332601056313 seconds (1 attempted reconnections so far)
+2018-04-30 01:51:01,605 INFO     errbot.backends.slack     Verifying authentication token
+2018-04-30 01:51:01,944 ERROR    errbot.backends.base      Exception occurred in serve_once:
+Traceback (most recent call last):
+  File "c:\slack_bot\venv\lib\site-packages\errbot\backends\base.py", line 686, in serve_forever
+    if self.serve_once():
+  File "c:\slack_bot\venv\lib\site-packages\errbot\backends\slack.py", line 371, in serve_once
+    raise SlackAPIResponseError(error="Couldn't authenticate with Slack. Server said: %s" % self.auth['error'])
+yapsy_loaded_plugin_Slack_0.SlackAPIResponseError
+2018-04-30 01:51:01,956 INFO     errbot.backends.base      Reconnecting in 10.661620506972422 seconds (2 attempted reconnections so far)
+2018-04-30 01:51:12,632 INFO     errbot.backends.slack     Verifying authentication token
+2018-04-30 01:51:12,938 ERROR    errbot.backends.base      Exception occurred in serve_once:
+Traceback (most recent call last):
+  File "c:\slack_bot\venv\lib\site-packages\errbot\backends\base.py", line 686, in serve_forever
+    if self.serve_once():
+  File "c:\slack_bot\venv\lib\site-packages\errbot\backends\slack.py", line 371, in serve_once
+    raise SlackAPIResponseError(error="Couldn't authenticate with Slack. Server said: %s" % self.auth['error'])
+yapsy_loaded_plugin_Slack_0.SlackAPIResponseError
+2018-04-30 01:51:12,943 INFO     errbot.backends.base      Reconnecting in 20.773032325863134 seconds (3 attempted reconnections so far)
+2018-04-30 01:54:18,522 INFO     errbot.specific_plugin_manager storage search paths {'c:\\slack_bot\\venv\\lib\\site-packages\\errbot\\storage'}
+2018-04-30 01:54:18,525 INFO     errbot.specific_plugin_manager Found those plugings available:
+2018-04-30 01:54:18,525 INFO     errbot.specific_plugin_manager 	    Memory  (c:\slack_bot\venv\lib\site-packages\errbot\storage\memory.py)
+2018-04-30 01:54:18,525 INFO     errbot.specific_plugin_manager 	     Shelf  (c:\slack_bot\venv\lib\site-packages\errbot\storage\shelf.py)
+2018-04-30 01:54:18,525 INFO     errbot.bootstrap          Found Storage plugin: 'Shelf'
+Description: This is the storage plugin for the traditional shelf store for errbot.
+2018-04-30 01:54:18,527 WARNING  yapsy                     Plugin candidate 'c:\slack_bot\venv\lib\site-packages\errbot\storage\memory.plug'  rejected by strategy 'SpecificBackendLocator'
+2018-04-30 01:54:18,537 INFO     errbot.specific_plugin_manager backends search paths {'c:\\slack_bot\\venv\\lib\\site-packages\\errbot\\backends'}
+2018-04-30 01:54:18,546 INFO     errbot.specific_plugin_manager Found those plugings available:
+2018-04-30 01:54:18,546 INFO     errbot.specific_plugin_manager 	   Graphic  (c:\slack_bot\venv\lib\site-packages\errbot\backends\graphic.py)
+2018-04-30 01:54:18,547 INFO     errbot.specific_plugin_manager 	   Hipchat  (c:\slack_bot\venv\lib\site-packages\errbot\backends\hipchat.py)
+2018-04-30 01:54:18,547 INFO     errbot.specific_plugin_manager 	       IRC  (c:\slack_bot\venv\lib\site-packages\errbot\backends\irc.py)
+2018-04-30 01:54:18,548 INFO     errbot.specific_plugin_manager 	      Null  (c:\slack_bot\venv\lib\site-packages\errbot\backends\null.py)
+2018-04-30 01:54:18,548 INFO     errbot.specific_plugin_manager 	     Slack  (c:\slack_bot\venv\lib\site-packages\errbot\backends\slack.py)
+2018-04-30 01:54:18,548 INFO     errbot.specific_plugin_manager 	  Telegram  (c:\slack_bot\venv\lib\site-packages\errbot\backends\telegram_messenger.py)
+2018-04-30 01:54:18,549 INFO     errbot.specific_plugin_manager 	      Test  (c:\slack_bot\venv\lib\site-packages\errbot\backends\test.py)
+2018-04-30 01:54:18,549 INFO     errbot.specific_plugin_manager 	      Text  (c:\slack_bot\venv\lib\site-packages\errbot\backends\text.py)
+2018-04-30 01:54:18,549 INFO     errbot.specific_plugin_manager 	      XMPP  (c:\slack_bot\venv\lib\site-packages\errbot\backends\xmpp.py)
+2018-04-30 01:54:18,550 INFO     errbot.bootstrap          Found Backend plugin: 'Slack'
+						Description: This is the slack backend for Err.
+2018-04-30 01:54:18,551 WARNING  yapsy                     Plugin candidate 'c:\slack_bot\venv\lib\site-packages\errbot\backends\graphic.plug'  rejected by strategy 'SpecificBackendLocator'
+2018-04-30 01:54:18,551 WARNING  yapsy                     Plugin candidate 'c:\slack_bot\venv\lib\site-packages\errbot\backends\hipchat.plug'  rejected by strategy 'SpecificBackendLocator'
+2018-04-30 01:54:18,552 WARNING  yapsy                     Plugin candidate 'c:\slack_bot\venv\lib\site-packages\errbot\backends\irc.plug'  rejected by strategy 'SpecificBackendLocator'
+2018-04-30 01:54:18,553 WARNING  yapsy                     Plugin candidate 'c:\slack_bot\venv\lib\site-packages\errbot\backends\null.plug'  rejected by strategy 'SpecificBackendLocator'
+2018-04-30 01:54:18,555 WARNING  yapsy                     Plugin candidate 'c:\slack_bot\venv\lib\site-packages\errbot\backends\telegram_messenger.plug'  rejected by strategy 'SpecificBackendLocator'
+2018-04-30 01:54:18,556 WARNING  yapsy                     Plugin candidate 'c:\slack_bot\venv\lib\site-packages\errbot\backends\test.plug'  rejected by strategy 'SpecificBackendLocator'
+2018-04-30 01:54:18,556 WARNING  yapsy                     Plugin candidate 'c:\slack_bot\venv\lib\site-packages\errbot\backends\text.plug'  rejected by strategy 'SpecificBackendLocator'
+2018-04-30 01:54:18,557 WARNING  yapsy                     Plugin candidate 'c:\slack_bot\venv\lib\site-packages\errbot\backends\xmpp.plug'  rejected by strategy 'SpecificBackendLocator'
+2018-04-30 01:54:18,912 INFO     errbot                    webhooks:  Flag to bind /echo to                           echo
+2018-04-30 01:54:18,916 INFO     errbot.backends.slack     Verifying authentication token
+2018-04-30 01:54:19,259 INFO     errbot.backends.slack     Connecting to Slack real-time-messaging API
+2018-04-30 01:54:20,600 INFO     errbot.backends.slack     Connected
+2018-04-30 01:54:20,945 INFO     errbot.core               Activate internal commands
+2018-04-30 01:54:20,946 INFO     errbot.plugin_manager     Activate bot plugins...
+2018-04-30 01:54:20,946 INFO     errbot.plugin_manager     Activate plugin: ACLs
+2018-04-30 01:54:20,947 INFO     errbot.plugin_manager     Activating ACLs with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-04-30 01:54:20,949 INFO     errbot.core_plugins.wsview Checking ACLS for webhooks
+2018-04-30 01:54:20,950 INFO     errbot.plugin_manager     Activate plugin: Backup
+2018-04-30 01:54:20,951 INFO     errbot.plugin_manager     Activating Backup with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-04-30 01:54:20,953 INFO     errbot.core_plugins.wsview Checking Backup for webhooks
+2018-04-30 01:54:20,954 INFO     errbot.plugin_manager     Activate plugin: ChatRoom
+2018-04-30 01:54:20,954 INFO     errbot.plugin_manager     Activating ChatRoom with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-04-30 01:54:20,956 INFO     errbot.core_plugins.wsview Checking ChatRoom for webhooks
+2018-04-30 01:54:20,957 INFO     errbot.plugin_manager     Activate plugin: CommandNotFoundFilter
+2018-04-30 01:54:20,957 INFO     errbot.plugin_manager     Activating CommandNotFoundFilter with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-04-30 01:54:20,959 INFO     errbot.core_plugins.wsview Checking CommandNotFoundFilter for webhooks
+2018-04-30 01:54:20,959 INFO     errbot.plugin_manager     Activate plugin: Flows
+2018-04-30 01:54:20,960 INFO     errbot.plugin_manager     Activating Flows with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-04-30 01:54:20,962 INFO     errbot.core_plugins.wsview Checking Flows for webhooks
+2018-04-30 01:54:20,963 INFO     errbot.plugin_manager     Activate plugin: Health
+2018-04-30 01:54:20,963 INFO     errbot.plugin_manager     Activating Health with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-04-30 01:54:20,965 INFO     errbot.core_plugins.wsview Checking Health for webhooks
+2018-04-30 01:54:20,966 INFO     errbot.plugin_manager     Activate plugin: Help
+2018-04-30 01:54:20,966 INFO     errbot.plugin_manager     Activating Help with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-04-30 01:54:20,968 INFO     errbot.core_plugins.wsview Checking Help for webhooks
+2018-04-30 01:54:20,970 INFO     errbot.plugin_manager     Activate plugin: Plugins
+2018-04-30 01:54:20,970 INFO     errbot.plugin_manager     Activating Plugins with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-04-30 01:54:20,973 INFO     errbot.core_plugins.wsview Checking Plugins for webhooks
+2018-04-30 01:54:20,974 INFO     errbot.plugin_manager     Activate plugin: TextCmds
+2018-04-30 01:54:20,974 INFO     errbot.plugin_manager     Plugin TextCmds has no section [Python]. Assuming this plugin is running only under python 3.
+2018-04-30 01:54:20,975 INFO     errbot.plugin_manager     Activating TextCmds with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-04-30 01:54:20,975 INFO     errbot.core_plugins.wsview Checking TextModeCmds for webhooks
+2018-04-30 01:54:20,976 INFO     errbot.plugin_manager     Activate plugin: Utils
+2018-04-30 01:54:20,976 INFO     errbot.plugin_manager     Activating Utils with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-04-30 01:54:20,978 INFO     errbot.core_plugins.wsview Checking Utils for webhooks
+2018-04-30 01:54:20,979 INFO     errbot.plugin_manager     Activate plugin: VersionChecker
+2018-04-30 01:54:20,980 INFO     errbot.plugin_manager     Activating VersionChecker with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-04-30 01:54:20,986 INFO     errbot.core_plugins.wsview Checking VersionChecker for webhooks
+2018-04-30 01:54:20,987 INFO     errbot.plugin_manager     Activate plugin: Webserver
+2018-04-30 01:54:20,988 INFO     errbot.plugin_manager     Activating Webserver with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-04-30 01:54:20,989 INFO     errbot.plugins.Webserver  Webserver is not configured. Forbid activation
+2018-04-30 01:54:20,989 INFO     errbot.core_plugins.wsview Checking Webserver for webhooks
+2018-04-30 01:54:20,990 INFO     errbot.core_plugins.wsview Webhook routing echo
+2018-04-30 01:54:20,990 INFO     errbot.core               
+2018-04-30 01:54:20,991 INFO     errbot.core               Notifying connection to all the plugins...
+2018-04-30 01:54:20,991 INFO     errbot.plugins.ChatRoom   Callback_connect
+2018-04-30 01:54:20,991 INFO     errbot.core               Plugin activation done.
+2018-04-30 02:01:18,084 INFO     errbot.plugins.ACLs       Matching ACL {} against username @fehuehuf for command Help:help
+2018-04-30 02:01:18,084 INFO     errbot.plugins.ACLs       Check if help is admin only command.
+2018-04-30 02:01:18,088 INFO     errbot.core               Processing command 'help' with parameters '' from @fehuehuf
+2018-04-30 02:08:38,468 INFO     errbot.backends.slack     Tried to DM a bot.
+2018-04-30 02:08:49,322 INFO     errbot.plugins.ACLs       Matching ACL {} against username @fehuehuf for command Help:help
+2018-04-30 02:08:49,323 INFO     errbot.plugins.ACLs       Check if help is admin only command.
+2018-04-30 02:08:49,324 INFO     errbot.core               Processing command 'help' with parameters '' from #slack_bot/fehuehuf
+2018-04-30 02:09:50,813 INFO     errbot.specific_plugin_manager storage search paths {'c:\\slack_bot\\venv\\lib\\site-packages\\errbot\\storage'}
+2018-04-30 02:09:50,813 INFO     errbot.specific_plugin_manager Found those plugings available:
+2018-04-30 02:09:50,828 INFO     errbot.specific_plugin_manager 	    Memory  (c:\slack_bot\venv\lib\site-packages\errbot\storage\memory.py)
+2018-04-30 02:09:50,828 INFO     errbot.specific_plugin_manager 	     Shelf  (c:\slack_bot\venv\lib\site-packages\errbot\storage\shelf.py)
+2018-04-30 02:09:50,828 INFO     errbot.bootstrap          Found Storage plugin: 'Shelf'
+Description: This is the storage plugin for the traditional shelf store for errbot.
+2018-04-30 02:09:50,828 WARNING  yapsy                     Plugin candidate 'c:\slack_bot\venv\lib\site-packages\errbot\storage\memory.plug'  rejected by strategy 'SpecificBackendLocator'
+2018-04-30 02:09:50,828 INFO     errbot.specific_plugin_manager backends search paths {'c:\\slack_bot\\venv\\lib\\site-packages\\errbot\\backends'}
+2018-04-30 02:09:50,844 INFO     errbot.specific_plugin_manager Found those plugings available:
+2018-04-30 02:09:50,844 INFO     errbot.specific_plugin_manager 	   Graphic  (c:\slack_bot\venv\lib\site-packages\errbot\backends\graphic.py)
+2018-04-30 02:09:50,844 INFO     errbot.specific_plugin_manager 	   Hipchat  (c:\slack_bot\venv\lib\site-packages\errbot\backends\hipchat.py)
+2018-04-30 02:09:50,844 INFO     errbot.specific_plugin_manager 	       IRC  (c:\slack_bot\venv\lib\site-packages\errbot\backends\irc.py)
+2018-04-30 02:09:50,844 INFO     errbot.specific_plugin_manager 	      Null  (c:\slack_bot\venv\lib\site-packages\errbot\backends\null.py)
+2018-04-30 02:09:50,844 INFO     errbot.specific_plugin_manager 	     Slack  (c:\slack_bot\venv\lib\site-packages\errbot\backends\slack.py)
+2018-04-30 02:09:50,844 INFO     errbot.specific_plugin_manager 	  Telegram  (c:\slack_bot\venv\lib\site-packages\errbot\backends\telegram_messenger.py)
+2018-04-30 02:09:50,844 INFO     errbot.specific_plugin_manager 	      Test  (c:\slack_bot\venv\lib\site-packages\errbot\backends\test.py)
+2018-04-30 02:09:50,844 INFO     errbot.specific_plugin_manager 	      Text  (c:\slack_bot\venv\lib\site-packages\errbot\backends\text.py)
+2018-04-30 02:09:50,844 INFO     errbot.specific_plugin_manager 	      XMPP  (c:\slack_bot\venv\lib\site-packages\errbot\backends\xmpp.py)
+2018-04-30 02:09:50,844 INFO     errbot.bootstrap          Found Backend plugin: 'Slack'
+						Description: This is the slack backend for Err.
+2018-04-30 02:09:50,844 WARNING  yapsy                     Plugin candidate 'c:\slack_bot\venv\lib\site-packages\errbot\backends\graphic.plug'  rejected by strategy 'SpecificBackendLocator'
+2018-04-30 02:09:50,844 WARNING  yapsy                     Plugin candidate 'c:\slack_bot\venv\lib\site-packages\errbot\backends\hipchat.plug'  rejected by strategy 'SpecificBackendLocator'
+2018-04-30 02:09:50,844 WARNING  yapsy                     Plugin candidate 'c:\slack_bot\venv\lib\site-packages\errbot\backends\irc.plug'  rejected by strategy 'SpecificBackendLocator'
+2018-04-30 02:09:50,844 WARNING  yapsy                     Plugin candidate 'c:\slack_bot\venv\lib\site-packages\errbot\backends\null.plug'  rejected by strategy 'SpecificBackendLocator'
+2018-04-30 02:09:50,844 WARNING  yapsy                     Plugin candidate 'c:\slack_bot\venv\lib\site-packages\errbot\backends\telegram_messenger.plug'  rejected by strategy 'SpecificBackendLocator'
+2018-04-30 02:09:50,860 WARNING  yapsy                     Plugin candidate 'c:\slack_bot\venv\lib\site-packages\errbot\backends\test.plug'  rejected by strategy 'SpecificBackendLocator'
+2018-04-30 02:09:50,861 WARNING  yapsy                     Plugin candidate 'c:\slack_bot\venv\lib\site-packages\errbot\backends\text.plug'  rejected by strategy 'SpecificBackendLocator'
+2018-04-30 02:09:50,862 WARNING  yapsy                     Plugin candidate 'c:\slack_bot\venv\lib\site-packages\errbot\backends\xmpp.plug'  rejected by strategy 'SpecificBackendLocator'
+2018-04-30 02:09:51,191 INFO     errbot                    webhooks:  Flag to bind /echo to                           echo
+2018-04-30 02:09:51,191 INFO     errbot.backends.slack     Verifying authentication token
+2018-04-30 02:09:51,527 INFO     errbot.backends.slack     Connecting to Slack real-time-messaging API
+2018-04-30 02:09:52,767 INFO     errbot.backends.slack     Connected
+2018-04-30 02:09:53,181 INFO     errbot.core               Activate internal commands
+2018-04-30 02:09:53,181 INFO     errbot.plugin_manager     Activate bot plugins...
+2018-04-30 02:09:53,181 INFO     errbot.plugin_manager     Activate plugin: ACLs
+2018-04-30 02:09:53,181 INFO     errbot.plugin_manager     Activating ACLs with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-04-30 02:09:53,181 INFO     errbot.core_plugins.wsview Checking ACLS for webhooks
+2018-04-30 02:09:53,181 INFO     errbot.plugin_manager     Activate plugin: Backup
+2018-04-30 02:09:53,197 INFO     errbot.plugin_manager     Activating Backup with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-04-30 02:09:53,205 INFO     errbot.core_plugins.wsview Checking Backup for webhooks
+2018-04-30 02:09:53,208 INFO     errbot.plugin_manager     Activate plugin: ChatRoom
+2018-04-30 02:09:53,211 INFO     errbot.plugin_manager     Activating ChatRoom with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-04-30 02:09:53,218 INFO     errbot.core_plugins.wsview Checking ChatRoom for webhooks
+2018-04-30 02:09:53,220 INFO     errbot.plugin_manager     Activate plugin: CommandNotFoundFilter
+2018-04-30 02:09:53,222 INFO     errbot.plugin_manager     Activating CommandNotFoundFilter with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-04-30 02:09:53,230 INFO     errbot.core_plugins.wsview Checking CommandNotFoundFilter for webhooks
+2018-04-30 02:09:53,230 INFO     errbot.plugin_manager     Activate plugin: Flows
+2018-04-30 02:09:53,230 INFO     errbot.plugin_manager     Activating Flows with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-04-30 02:09:53,230 INFO     errbot.core_plugins.wsview Checking Flows for webhooks
+2018-04-30 02:09:53,230 INFO     errbot.plugin_manager     Activate plugin: Health
+2018-04-30 02:09:53,230 INFO     errbot.plugin_manager     Activating Health with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-04-30 02:09:53,230 INFO     errbot.core_plugins.wsview Checking Health for webhooks
+2018-04-30 02:09:53,230 INFO     errbot.plugin_manager     Activate plugin: Help
+2018-04-30 02:09:53,230 INFO     errbot.plugin_manager     Activating Help with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-04-30 02:09:53,246 INFO     errbot.core_plugins.wsview Checking Help for webhooks
+2018-04-30 02:09:53,246 INFO     errbot.plugin_manager     Activate plugin: Plugins
+2018-04-30 02:09:53,246 INFO     errbot.plugin_manager     Activating Plugins with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-04-30 02:09:53,246 INFO     errbot.core_plugins.wsview Checking Plugins for webhooks
+2018-04-30 02:09:53,246 INFO     errbot.plugin_manager     Activate plugin: TextCmds
+2018-04-30 02:09:53,246 INFO     errbot.plugin_manager     Plugin TextCmds has no section [Python]. Assuming this plugin is running only under python 3.
+2018-04-30 02:09:53,246 INFO     errbot.plugin_manager     Activating TextCmds with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-04-30 02:09:53,246 INFO     errbot.core_plugins.wsview Checking TextModeCmds for webhooks
+2018-04-30 02:09:53,246 INFO     errbot.plugin_manager     Activate plugin: Utils
+2018-04-30 02:09:53,246 INFO     errbot.plugin_manager     Activating Utils with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-04-30 02:09:53,246 INFO     errbot.core_plugins.wsview Checking Utils for webhooks
+2018-04-30 02:09:53,246 INFO     errbot.plugin_manager     Activate plugin: VersionChecker
+2018-04-30 02:09:53,246 INFO     errbot.plugin_manager     Activating VersionChecker with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-04-30 02:09:53,261 INFO     errbot.core_plugins.wsview Checking VersionChecker for webhooks
+2018-04-30 02:09:53,261 INFO     errbot.plugin_manager     Activate plugin: Webserver
+2018-04-30 02:09:53,261 INFO     errbot.plugin_manager     Activating Webserver with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-04-30 02:09:53,261 INFO     errbot.plugins.Webserver  Webserver is not configured. Forbid activation
+2018-04-30 02:09:53,261 INFO     errbot.core_plugins.wsview Checking Webserver for webhooks
+2018-04-30 02:09:53,261 INFO     errbot.core_plugins.wsview Webhook routing echo
+2018-04-30 02:09:53,261 INFO     errbot.core               
+2018-04-30 02:09:53,261 INFO     errbot.core               Notifying connection to all the plugins...
+2018-04-30 02:09:53,261 INFO     errbot.plugins.ChatRoom   Callback_connect
+2018-04-30 02:09:53,261 INFO     errbot.core               Plugin activation done.
+2018-04-30 02:10:04,888 INFO     errbot.plugins.ACLs       Matching ACL {} against username @fehuehuf for command Help:help
+2018-04-30 02:10:04,890 INFO     errbot.plugins.ACLs       Check if help is admin only command.
+2018-04-30 02:10:04,891 INFO     errbot.core               Processing command 'help' with parameters '' from #slack_bot/fehuehuf
+2018-04-30 02:12:59,332 INFO     errbot.plugins.ACLs       Matching ACL {} against username @fehuehuf for command Help:help
+2018-04-30 02:12:59,334 INFO     errbot.plugins.ACLs       Check if help is admin only command.
+2018-04-30 02:12:59,335 INFO     errbot.core               Processing command 'help' with parameters 'repos' from #slack_bot/fehuehuf
+2018-04-30 02:13:59,014 INFO     errbot.plugins.ACLs       Matching ACL {} against username @fehuehuf for command Plugins:repos
+2018-04-30 02:13:59,016 INFO     errbot.plugins.ACLs       Check if repos is admin only command.
+2018-04-30 02:13:59,016 INFO     errbot.core               Processing command 'repos' with parameters '' from #slack_bot/fehuehuf
+2018-04-30 02:14:13,826 INFO     errbot.plugins.ACLs       Matching ACL {} against username @fehuehuf for command Plugins:repos_search
+2018-04-30 02:14:13,827 INFO     errbot.plugins.ACLs       Check if repos_search is admin only command.
+2018-04-30 02:14:13,828 INFO     errbot.core               Processing command 'repos_search' with parameters 'jira' from #slack_bot/fehuehuf
+2018-04-30 02:14:13,842 INFO     errbot.repo_manager       No repo index, creating it.
+2018-04-30 02:26:08,045 INFO     errbot.specific_plugin_manager storage search paths {'c:\\slack_bot\\venv\\lib\\site-packages\\errbot\\storage'}
+2018-04-30 02:26:08,048 INFO     errbot.specific_plugin_manager Found those plugings available:
+2018-04-30 02:26:08,049 INFO     errbot.specific_plugin_manager 	    Memory  (c:\slack_bot\venv\lib\site-packages\errbot\storage\memory.py)
+2018-04-30 02:26:08,049 INFO     errbot.specific_plugin_manager 	     Shelf  (c:\slack_bot\venv\lib\site-packages\errbot\storage\shelf.py)
+2018-04-30 02:26:08,049 INFO     errbot.bootstrap          Found Storage plugin: 'Shelf'
+Description: This is the storage plugin for the traditional shelf store for errbot.
+2018-04-30 02:26:08,051 WARNING  yapsy                     Plugin candidate 'c:\slack_bot\venv\lib\site-packages\errbot\storage\memory.plug'  rejected by strategy 'SpecificBackendLocator'
+2018-04-30 02:26:08,062 INFO     errbot.specific_plugin_manager backends search paths {'c:\\slack_bot\\venv\\lib\\site-packages\\errbot\\backends'}
+2018-04-30 02:26:08,070 INFO     errbot.specific_plugin_manager Found those plugings available:
+2018-04-30 02:26:08,070 INFO     errbot.specific_plugin_manager 	   Graphic  (c:\slack_bot\venv\lib\site-packages\errbot\backends\graphic.py)
+2018-04-30 02:26:08,071 INFO     errbot.specific_plugin_manager 	   Hipchat  (c:\slack_bot\venv\lib\site-packages\errbot\backends\hipchat.py)
+2018-04-30 02:26:08,071 INFO     errbot.specific_plugin_manager 	       IRC  (c:\slack_bot\venv\lib\site-packages\errbot\backends\irc.py)
+2018-04-30 02:26:08,072 INFO     errbot.specific_plugin_manager 	      Null  (c:\slack_bot\venv\lib\site-packages\errbot\backends\null.py)
+2018-04-30 02:26:08,072 INFO     errbot.specific_plugin_manager 	     Slack  (c:\slack_bot\venv\lib\site-packages\errbot\backends\slack.py)
+2018-04-30 02:26:08,072 INFO     errbot.specific_plugin_manager 	  Telegram  (c:\slack_bot\venv\lib\site-packages\errbot\backends\telegram_messenger.py)
+2018-04-30 02:26:08,072 INFO     errbot.specific_plugin_manager 	      Test  (c:\slack_bot\venv\lib\site-packages\errbot\backends\test.py)
+2018-04-30 02:26:08,073 INFO     errbot.specific_plugin_manager 	      Text  (c:\slack_bot\venv\lib\site-packages\errbot\backends\text.py)
+2018-04-30 02:26:08,073 INFO     errbot.specific_plugin_manager 	      XMPP  (c:\slack_bot\venv\lib\site-packages\errbot\backends\xmpp.py)
+2018-04-30 02:26:08,073 INFO     errbot.bootstrap          Found Backend plugin: 'Slack'
+						Description: This is the slack backend for Err.
+2018-04-30 02:26:08,074 WARNING  yapsy                     Plugin candidate 'c:\slack_bot\venv\lib\site-packages\errbot\backends\graphic.plug'  rejected by strategy 'SpecificBackendLocator'
+2018-04-30 02:26:08,075 WARNING  yapsy                     Plugin candidate 'c:\slack_bot\venv\lib\site-packages\errbot\backends\hipchat.plug'  rejected by strategy 'SpecificBackendLocator'
+2018-04-30 02:26:08,076 WARNING  yapsy                     Plugin candidate 'c:\slack_bot\venv\lib\site-packages\errbot\backends\irc.plug'  rejected by strategy 'SpecificBackendLocator'
+2018-04-30 02:26:08,077 WARNING  yapsy                     Plugin candidate 'c:\slack_bot\venv\lib\site-packages\errbot\backends\null.plug'  rejected by strategy 'SpecificBackendLocator'
+2018-04-30 02:26:08,078 WARNING  yapsy                     Plugin candidate 'c:\slack_bot\venv\lib\site-packages\errbot\backends\telegram_messenger.plug'  rejected by strategy 'SpecificBackendLocator'
+2018-04-30 02:26:08,079 WARNING  yapsy                     Plugin candidate 'c:\slack_bot\venv\lib\site-packages\errbot\backends\test.plug'  rejected by strategy 'SpecificBackendLocator'
+2018-04-30 02:26:08,080 WARNING  yapsy                     Plugin candidate 'c:\slack_bot\venv\lib\site-packages\errbot\backends\text.plug'  rejected by strategy 'SpecificBackendLocator'
+2018-04-30 02:26:08,081 WARNING  yapsy                     Plugin candidate 'c:\slack_bot\venv\lib\site-packages\errbot\backends\xmpp.plug'  rejected by strategy 'SpecificBackendLocator'
+2018-04-30 02:26:08,420 INFO     errbot                    webhooks:  Flag to bind /echo to                           echo
+2018-04-30 02:26:08,422 INFO     errbot.backends.slack     Verifying authentication token
+2018-04-30 02:26:08,727 INFO     errbot.backends.slack     Connecting to Slack real-time-messaging API
+2018-04-30 02:26:09,970 INFO     errbot.backends.slack     Connected
+2018-04-30 02:26:10,317 INFO     errbot.core               Activate internal commands
+2018-04-30 02:26:10,317 INFO     errbot.plugin_manager     Activate bot plugins...
+2018-04-30 02:26:10,318 INFO     errbot.plugin_manager     Activate plugin: ACLs
+2018-04-30 02:26:10,319 INFO     errbot.plugin_manager     Activating ACLs with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-04-30 02:26:10,320 INFO     errbot.core_plugins.wsview Checking ACLS for webhooks
+2018-04-30 02:26:10,322 INFO     errbot.plugin_manager     Activate plugin: Backup
+2018-04-30 02:26:10,322 INFO     errbot.plugin_manager     Activating Backup with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-04-30 02:26:10,324 INFO     errbot.core_plugins.wsview Checking Backup for webhooks
+2018-04-30 02:26:10,324 INFO     errbot.plugin_manager     Activate plugin: ChatRoom
+2018-04-30 02:26:10,325 INFO     errbot.plugin_manager     Activating ChatRoom with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-04-30 02:26:10,327 INFO     errbot.core_plugins.wsview Checking ChatRoom for webhooks
+2018-04-30 02:26:10,327 INFO     errbot.plugin_manager     Activate plugin: CommandNotFoundFilter
+2018-04-30 02:26:10,328 INFO     errbot.plugin_manager     Activating CommandNotFoundFilter with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-04-30 02:26:10,330 INFO     errbot.core_plugins.wsview Checking CommandNotFoundFilter for webhooks
+2018-04-30 02:26:10,331 INFO     errbot.plugin_manager     Activate plugin: Flows
+2018-04-30 02:26:10,331 INFO     errbot.plugin_manager     Activating Flows with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-04-30 02:26:10,333 INFO     errbot.core_plugins.wsview Checking Flows for webhooks
+2018-04-30 02:26:10,334 INFO     errbot.plugin_manager     Activate plugin: Health
+2018-04-30 02:26:10,334 INFO     errbot.plugin_manager     Activating Health with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-04-30 02:26:10,336 INFO     errbot.core_plugins.wsview Checking Health for webhooks
+2018-04-30 02:26:10,337 INFO     errbot.plugin_manager     Activate plugin: Help
+2018-04-30 02:26:10,338 INFO     errbot.plugin_manager     Activating Help with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-04-30 02:26:10,340 INFO     errbot.core_plugins.wsview Checking Help for webhooks
+2018-04-30 02:26:10,341 INFO     errbot.plugin_manager     Activate plugin: Plugins
+2018-04-30 02:26:10,342 INFO     errbot.plugin_manager     Activating Plugins with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-04-30 02:26:10,344 INFO     errbot.core_plugins.wsview Checking Plugins for webhooks
+2018-04-30 02:26:10,345 INFO     errbot.plugin_manager     Activate plugin: TextCmds
+2018-04-30 02:26:10,345 INFO     errbot.plugin_manager     Plugin TextCmds has no section [Python]. Assuming this plugin is running only under python 3.
+2018-04-30 02:26:10,346 INFO     errbot.plugin_manager     Activating TextCmds with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-04-30 02:26:10,346 INFO     errbot.core_plugins.wsview Checking TextModeCmds for webhooks
+2018-04-30 02:26:10,347 INFO     errbot.plugin_manager     Activate plugin: Utils
+2018-04-30 02:26:10,348 INFO     errbot.plugin_manager     Activating Utils with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-04-30 02:26:10,350 INFO     errbot.core_plugins.wsview Checking Utils for webhooks
+2018-04-30 02:26:10,350 INFO     errbot.plugin_manager     Activate plugin: VersionChecker
+2018-04-30 02:26:10,351 INFO     errbot.plugin_manager     Activating VersionChecker with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-04-30 02:26:10,356 INFO     errbot.core_plugins.wsview Checking VersionChecker for webhooks
+2018-04-30 02:26:10,357 INFO     errbot.plugin_manager     Activate plugin: Webserver
+2018-04-30 02:26:10,357 INFO     errbot.plugin_manager     Activating Webserver with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-04-30 02:26:10,358 INFO     errbot.plugins.Webserver  Webserver is not configured. Forbid activation
+2018-04-30 02:26:10,358 INFO     errbot.core_plugins.wsview Checking Webserver for webhooks
+2018-04-30 02:26:10,358 INFO     errbot.core_plugins.wsview Webhook routing echo
+2018-04-30 02:26:10,359 INFO     errbot.core               
+2018-04-30 02:26:10,359 INFO     errbot.core               Notifying connection to all the plugins...
+2018-04-30 02:26:10,359 INFO     errbot.plugins.ChatRoom   Callback_connect
+2018-04-30 02:26:10,359 INFO     errbot.core               Plugin activation done.
+2018-04-30 02:27:02,465 INFO     errbot.specific_plugin_manager storage search paths {'c:\\slack_bot\\venv\\lib\\site-packages\\errbot\\storage'}
+2018-04-30 02:27:02,468 INFO     errbot.specific_plugin_manager Found those plugings available:
+2018-04-30 02:27:02,468 INFO     errbot.specific_plugin_manager 	    Memory  (c:\slack_bot\venv\lib\site-packages\errbot\storage\memory.py)
+2018-04-30 02:27:02,468 INFO     errbot.specific_plugin_manager 	     Shelf  (c:\slack_bot\venv\lib\site-packages\errbot\storage\shelf.py)
+2018-04-30 02:27:02,468 INFO     errbot.bootstrap          Found Storage plugin: 'Shelf'
+Description: This is the storage plugin for the traditional shelf store for errbot.
+2018-04-30 02:27:02,469 WARNING  yapsy                     Plugin candidate 'c:\slack_bot\venv\lib\site-packages\errbot\storage\memory.plug'  rejected by strategy 'SpecificBackendLocator'
+2018-04-30 02:27:02,480 INFO     errbot.specific_plugin_manager backends search paths {'c:\\slack_bot\\venv\\lib\\site-packages\\errbot\\backends'}
+2018-04-30 02:27:02,487 INFO     errbot.specific_plugin_manager Found those plugings available:
+2018-04-30 02:27:02,487 INFO     errbot.specific_plugin_manager 	   Graphic  (c:\slack_bot\venv\lib\site-packages\errbot\backends\graphic.py)
+2018-04-30 02:27:02,488 INFO     errbot.specific_plugin_manager 	   Hipchat  (c:\slack_bot\venv\lib\site-packages\errbot\backends\hipchat.py)
+2018-04-30 02:27:02,488 INFO     errbot.specific_plugin_manager 	       IRC  (c:\slack_bot\venv\lib\site-packages\errbot\backends\irc.py)
+2018-04-30 02:27:02,488 INFO     errbot.specific_plugin_manager 	      Null  (c:\slack_bot\venv\lib\site-packages\errbot\backends\null.py)
+2018-04-30 02:27:02,489 INFO     errbot.specific_plugin_manager 	     Slack  (c:\slack_bot\venv\lib\site-packages\errbot\backends\slack.py)
+2018-04-30 02:27:02,489 INFO     errbot.specific_plugin_manager 	  Telegram  (c:\slack_bot\venv\lib\site-packages\errbot\backends\telegram_messenger.py)
+2018-04-30 02:27:02,489 INFO     errbot.specific_plugin_manager 	      Test  (c:\slack_bot\venv\lib\site-packages\errbot\backends\test.py)
+2018-04-30 02:27:02,489 INFO     errbot.specific_plugin_manager 	      Text  (c:\slack_bot\venv\lib\site-packages\errbot\backends\text.py)
+2018-04-30 02:27:02,490 INFO     errbot.specific_plugin_manager 	      XMPP  (c:\slack_bot\venv\lib\site-packages\errbot\backends\xmpp.py)
+2018-04-30 02:27:02,490 INFO     errbot.bootstrap          Found Backend plugin: 'Slack'
+						Description: This is the slack backend for Err.
+2018-04-30 02:27:02,491 WARNING  yapsy                     Plugin candidate 'c:\slack_bot\venv\lib\site-packages\errbot\backends\graphic.plug'  rejected by strategy 'SpecificBackendLocator'
+2018-04-30 02:27:02,492 WARNING  yapsy                     Plugin candidate 'c:\slack_bot\venv\lib\site-packages\errbot\backends\hipchat.plug'  rejected by strategy 'SpecificBackendLocator'
+2018-04-30 02:27:02,492 WARNING  yapsy                     Plugin candidate 'c:\slack_bot\venv\lib\site-packages\errbot\backends\irc.plug'  rejected by strategy 'SpecificBackendLocator'
+2018-04-30 02:27:02,493 WARNING  yapsy                     Plugin candidate 'c:\slack_bot\venv\lib\site-packages\errbot\backends\null.plug'  rejected by strategy 'SpecificBackendLocator'
+2018-04-30 02:27:02,495 WARNING  yapsy                     Plugin candidate 'c:\slack_bot\venv\lib\site-packages\errbot\backends\telegram_messenger.plug'  rejected by strategy 'SpecificBackendLocator'
+2018-04-30 02:27:02,495 WARNING  yapsy                     Plugin candidate 'c:\slack_bot\venv\lib\site-packages\errbot\backends\test.plug'  rejected by strategy 'SpecificBackendLocator'
+2018-04-30 02:27:02,496 WARNING  yapsy                     Plugin candidate 'c:\slack_bot\venv\lib\site-packages\errbot\backends\text.plug'  rejected by strategy 'SpecificBackendLocator'
+2018-04-30 02:27:02,496 WARNING  yapsy                     Plugin candidate 'c:\slack_bot\venv\lib\site-packages\errbot\backends\xmpp.plug'  rejected by strategy 'SpecificBackendLocator'
+2018-04-30 02:27:02,826 INFO     errbot                    webhooks:  Flag to bind /echo to                           echo
+2018-04-30 02:27:02,828 INFO     errbot.backends.slack     Verifying authentication token
+2018-04-30 02:27:03,151 INFO     errbot.backends.slack     Connecting to Slack real-time-messaging API
+2018-04-30 02:27:04,302 INFO     errbot.backends.slack     Connected
+2018-04-30 02:27:04,646 INFO     errbot.core               Activate internal commands
+2018-04-30 02:27:04,647 INFO     errbot.plugin_manager     Activate bot plugins...
+2018-04-30 02:27:04,648 INFO     errbot.plugin_manager     Activate plugin: ACLs
+2018-04-30 02:27:04,650 INFO     errbot.plugin_manager     Activating ACLs with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-04-30 02:27:04,654 INFO     errbot.core_plugins.wsview Checking ACLS for webhooks
+2018-04-30 02:27:04,659 INFO     errbot.plugin_manager     Activate plugin: Backup
+2018-04-30 02:27:04,661 INFO     errbot.plugin_manager     Activating Backup with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-04-30 02:27:04,665 INFO     errbot.core_plugins.wsview Checking Backup for webhooks
+2018-04-30 02:27:04,668 INFO     errbot.plugin_manager     Activate plugin: ChatRoom
+2018-04-30 02:27:04,669 INFO     errbot.plugin_manager     Activating ChatRoom with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-04-30 02:27:04,674 INFO     errbot.core_plugins.wsview Checking ChatRoom for webhooks
+2018-04-30 02:27:04,677 INFO     errbot.plugin_manager     Activate plugin: CommandNotFoundFilter
+2018-04-30 02:27:04,678 INFO     errbot.plugin_manager     Activating CommandNotFoundFilter with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-04-30 02:27:04,683 INFO     errbot.core_plugins.wsview Checking CommandNotFoundFilter for webhooks
+2018-04-30 02:27:04,685 INFO     errbot.plugin_manager     Activate plugin: Flows
+2018-04-30 02:27:04,686 INFO     errbot.plugin_manager     Activating Flows with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-04-30 02:27:04,690 INFO     errbot.core_plugins.wsview Checking Flows for webhooks
+2018-04-30 02:27:04,692 INFO     errbot.plugin_manager     Activate plugin: Health
+2018-04-30 02:27:04,693 INFO     errbot.plugin_manager     Activating Health with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-04-30 02:27:04,696 INFO     errbot.core_plugins.wsview Checking Health for webhooks
+2018-04-30 02:27:04,696 INFO     errbot.plugin_manager     Activate plugin: Help
+2018-04-30 02:27:04,697 INFO     errbot.plugin_manager     Activating Help with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-04-30 02:27:04,699 INFO     errbot.core_plugins.wsview Checking Help for webhooks
+2018-04-30 02:27:04,700 INFO     errbot.plugin_manager     Activate plugin: Plugins
+2018-04-30 02:27:04,701 INFO     errbot.plugin_manager     Activating Plugins with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-04-30 02:27:04,703 INFO     errbot.core_plugins.wsview Checking Plugins for webhooks
+2018-04-30 02:27:04,704 INFO     errbot.plugin_manager     Activate plugin: TextCmds
+2018-04-30 02:27:04,705 INFO     errbot.plugin_manager     Plugin TextCmds has no section [Python]. Assuming this plugin is running only under python 3.
+2018-04-30 02:27:04,705 INFO     errbot.plugin_manager     Activating TextCmds with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-04-30 02:27:04,706 INFO     errbot.core_plugins.wsview Checking TextModeCmds for webhooks
+2018-04-30 02:27:04,706 INFO     errbot.plugin_manager     Activate plugin: Utils
+2018-04-30 02:27:04,707 INFO     errbot.plugin_manager     Activating Utils with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-04-30 02:27:04,709 INFO     errbot.core_plugins.wsview Checking Utils for webhooks
+2018-04-30 02:27:04,710 INFO     errbot.plugin_manager     Activate plugin: VersionChecker
+2018-04-30 02:27:04,710 INFO     errbot.plugin_manager     Activating VersionChecker with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-04-30 02:27:04,717 INFO     errbot.core_plugins.wsview Checking VersionChecker for webhooks
+2018-04-30 02:27:04,718 INFO     errbot.plugin_manager     Activate plugin: Webserver
+2018-04-30 02:27:04,718 INFO     errbot.plugin_manager     Activating Webserver with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-04-30 02:27:04,719 INFO     errbot.plugins.Webserver  Webserver is not configured. Forbid activation
+2018-04-30 02:27:04,719 INFO     errbot.core_plugins.wsview Checking Webserver for webhooks
+2018-04-30 02:27:04,720 INFO     errbot.core_plugins.wsview Webhook routing echo
+2018-04-30 02:27:04,720 INFO     errbot.core               
+2018-04-30 02:27:04,721 INFO     errbot.core               Notifying connection to all the plugins...
+2018-04-30 02:27:04,721 INFO     errbot.plugins.ChatRoom   Callback_connect
+2018-04-30 02:27:04,721 INFO     errbot.core               Plugin activation done.
+2018-04-30 13:13:14,239 INFO     errbot.specific_plugin_manager storage search paths {'c:\\slack_bot\\venv\\lib\\site-packages\\errbot\\storage'}
+2018-04-30 13:13:14,241 INFO     errbot.specific_plugin_manager Found those plugings available:
+2018-04-30 13:13:14,242 INFO     errbot.specific_plugin_manager 	    Memory  (c:\slack_bot\venv\lib\site-packages\errbot\storage\memory.py)
+2018-04-30 13:13:14,242 INFO     errbot.specific_plugin_manager 	     Shelf  (c:\slack_bot\venv\lib\site-packages\errbot\storage\shelf.py)
+2018-04-30 13:13:14,242 INFO     errbot.bootstrap          Found Storage plugin: 'Shelf'
+Description: This is the storage plugin for the traditional shelf store for errbot.
+2018-04-30 13:13:14,243 WARNING  yapsy                     Plugin candidate 'c:\slack_bot\venv\lib\site-packages\errbot\storage\memory.plug'  rejected by strategy 'SpecificBackendLocator'
+2018-04-30 13:13:14,258 INFO     errbot.specific_plugin_manager backends search paths {'c:\\slack_bot\\venv\\lib\\site-packages\\errbot\\backends'}
+2018-04-30 13:13:14,268 INFO     errbot.specific_plugin_manager Found those plugings available:
+2018-04-30 13:13:14,268 INFO     errbot.specific_plugin_manager 	   Graphic  (c:\slack_bot\venv\lib\site-packages\errbot\backends\graphic.py)
+2018-04-30 13:13:14,269 INFO     errbot.specific_plugin_manager 	   Hipchat  (c:\slack_bot\venv\lib\site-packages\errbot\backends\hipchat.py)
+2018-04-30 13:13:14,269 INFO     errbot.specific_plugin_manager 	       IRC  (c:\slack_bot\venv\lib\site-packages\errbot\backends\irc.py)
+2018-04-30 13:13:14,269 INFO     errbot.specific_plugin_manager 	      Null  (c:\slack_bot\venv\lib\site-packages\errbot\backends\null.py)
+2018-04-30 13:13:14,270 INFO     errbot.specific_plugin_manager 	     Slack  (c:\slack_bot\venv\lib\site-packages\errbot\backends\slack.py)
+2018-04-30 13:13:14,270 INFO     errbot.specific_plugin_manager 	  Telegram  (c:\slack_bot\venv\lib\site-packages\errbot\backends\telegram_messenger.py)
+2018-04-30 13:13:14,270 INFO     errbot.specific_plugin_manager 	      Test  (c:\slack_bot\venv\lib\site-packages\errbot\backends\test.py)
+2018-04-30 13:13:14,272 INFO     errbot.specific_plugin_manager 	      Text  (c:\slack_bot\venv\lib\site-packages\errbot\backends\text.py)
+2018-04-30 13:13:14,272 INFO     errbot.specific_plugin_manager 	      XMPP  (c:\slack_bot\venv\lib\site-packages\errbot\backends\xmpp.py)
+2018-04-30 13:13:14,272 INFO     errbot.bootstrap          Found Backend plugin: 'Slack'
+						Description: This is the slack backend for Err.
+2018-04-30 13:13:14,273 WARNING  yapsy                     Plugin candidate 'c:\slack_bot\venv\lib\site-packages\errbot\backends\graphic.plug'  rejected by strategy 'SpecificBackendLocator'
+2018-04-30 13:13:14,274 WARNING  yapsy                     Plugin candidate 'c:\slack_bot\venv\lib\site-packages\errbot\backends\hipchat.plug'  rejected by strategy 'SpecificBackendLocator'
+2018-04-30 13:13:14,275 WARNING  yapsy                     Plugin candidate 'c:\slack_bot\venv\lib\site-packages\errbot\backends\irc.plug'  rejected by strategy 'SpecificBackendLocator'
+2018-04-30 13:13:14,276 WARNING  yapsy                     Plugin candidate 'c:\slack_bot\venv\lib\site-packages\errbot\backends\null.plug'  rejected by strategy 'SpecificBackendLocator'
+2018-04-30 13:13:14,278 WARNING  yapsy                     Plugin candidate 'c:\slack_bot\venv\lib\site-packages\errbot\backends\telegram_messenger.plug'  rejected by strategy 'SpecificBackendLocator'
+2018-04-30 13:13:14,278 WARNING  yapsy                     Plugin candidate 'c:\slack_bot\venv\lib\site-packages\errbot\backends\test.plug'  rejected by strategy 'SpecificBackendLocator'
+2018-04-30 13:13:14,280 WARNING  yapsy                     Plugin candidate 'c:\slack_bot\venv\lib\site-packages\errbot\backends\text.plug'  rejected by strategy 'SpecificBackendLocator'
+2018-04-30 13:13:14,281 WARNING  yapsy                     Plugin candidate 'c:\slack_bot\venv\lib\site-packages\errbot\backends\xmpp.plug'  rejected by strategy 'SpecificBackendLocator'
+2018-04-30 13:13:14,861 INFO     errbot                    webhooks:  Flag to bind /echo to                           echo
+2018-04-30 13:13:14,863 INFO     errbot.backends.slack     Verifying authentication token
+2018-04-30 13:13:16,226 INFO     errbot.backends.slack     Connecting to Slack real-time-messaging API
+2018-04-30 13:13:17,387 INFO     errbot.backends.slack     Connected
+2018-04-30 13:13:17,789 INFO     errbot.core               Activate internal commands
+2018-04-30 13:13:17,791 INFO     errbot.plugin_manager     Activate bot plugins...
+2018-04-30 13:13:17,793 INFO     errbot.plugin_manager     Activate plugin: ACLs
+2018-04-30 13:13:17,794 INFO     errbot.plugin_manager     Activating ACLs with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-04-30 13:13:17,797 INFO     errbot.core_plugins.wsview Checking ACLS for webhooks
+2018-04-30 13:13:17,803 INFO     errbot.plugin_manager     Activate plugin: Backup
+2018-04-30 13:13:17,806 INFO     errbot.plugin_manager     Activating Backup with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-04-30 13:13:17,813 INFO     errbot.core_plugins.wsview Checking Backup for webhooks
+2018-04-30 13:13:17,818 INFO     errbot.plugin_manager     Activate plugin: ChatRoom
+2018-04-30 13:13:17,820 INFO     errbot.plugin_manager     Activating ChatRoom with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-04-30 13:13:17,827 INFO     errbot.core_plugins.wsview Checking ChatRoom for webhooks
+2018-04-30 13:13:17,829 INFO     errbot.plugin_manager     Activate plugin: CommandNotFoundFilter
+2018-04-30 13:13:17,830 INFO     errbot.plugin_manager     Activating CommandNotFoundFilter with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-04-30 13:13:17,834 INFO     errbot.core_plugins.wsview Checking CommandNotFoundFilter for webhooks
+2018-04-30 13:13:17,836 INFO     errbot.plugin_manager     Activate plugin: Flows
+2018-04-30 13:13:17,837 INFO     errbot.plugin_manager     Activating Flows with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-04-30 13:13:17,840 INFO     errbot.core_plugins.wsview Checking Flows for webhooks
+2018-04-30 13:13:17,841 INFO     errbot.plugin_manager     Activate plugin: Health
+2018-04-30 13:13:17,842 INFO     errbot.plugin_manager     Activating Health with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-04-30 13:13:17,846 INFO     errbot.core_plugins.wsview Checking Health for webhooks
+2018-04-30 13:13:17,848 INFO     errbot.plugin_manager     Activate plugin: Help
+2018-04-30 13:13:17,849 INFO     errbot.plugin_manager     Activating Help with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-04-30 13:13:17,853 INFO     errbot.core_plugins.wsview Checking Help for webhooks
+2018-04-30 13:13:17,853 INFO     errbot.plugin_manager     Activate plugin: Plugins
+2018-04-30 13:13:17,854 INFO     errbot.plugin_manager     Activating Plugins with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-04-30 13:13:17,857 INFO     errbot.core_plugins.wsview Checking Plugins for webhooks
+2018-04-30 13:13:17,858 INFO     errbot.plugin_manager     Activate plugin: TextCmds
+2018-04-30 13:13:17,859 INFO     errbot.plugin_manager     Plugin TextCmds has no section [Python]. Assuming this plugin is running only under python 3.
+2018-04-30 13:13:17,859 INFO     errbot.plugin_manager     Activating TextCmds with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-04-30 13:13:17,860 INFO     errbot.core_plugins.wsview Checking TextModeCmds for webhooks
+2018-04-30 13:13:17,861 INFO     errbot.plugin_manager     Activate plugin: Utils
+2018-04-30 13:13:17,862 INFO     errbot.plugin_manager     Activating Utils with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-04-30 13:13:17,865 INFO     errbot.core_plugins.wsview Checking Utils for webhooks
+2018-04-30 13:13:17,866 INFO     errbot.plugin_manager     Activate plugin: VersionChecker
+2018-04-30 13:13:17,867 INFO     errbot.plugin_manager     Activating VersionChecker with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-04-30 13:13:17,872 INFO     errbot.core_plugins.wsview Checking VersionChecker for webhooks
+2018-04-30 13:13:17,873 INFO     errbot.plugin_manager     Activate plugin: Webserver
+2018-04-30 13:13:17,874 INFO     errbot.plugin_manager     Activating Webserver with min_err_version = 5.2.0 and max_version = 5.2.0
+2018-04-30 13:13:17,875 INFO     errbot.plugins.Webserver  Webserver is not configured. Forbid activation
+2018-04-30 13:13:17,875 INFO     errbot.core_plugins.wsview Checking Webserver for webhooks
+2018-04-30 13:13:17,875 INFO     errbot.core_plugins.wsview Webhook routing echo
+2018-04-30 13:13:17,876 INFO     errbot.core               
+2018-04-30 13:13:17,877 INFO     errbot.core               Notifying connection to all the plugins...
+2018-04-30 13:13:17,877 INFO     errbot.plugins.ChatRoom   Callback_connect
+2018-04-30 13:13:17,877 INFO     errbot.core               Plugin activation done.
+2018-04-30 13:14:57,843 INFO     errbot.plugins.ACLs       Matching ACL {} against username @fehuehuf for command Help:help
+2018-04-30 13:14:57,850 INFO     errbot.plugins.ACLs       Check if help is admin only command.
+2018-04-30 13:14:57,853 INFO     errbot.core               Processing command 'help' with parameters '' from @fehuehuf
+2018-04-30 13:15:29,074 INFO     errbot.plugins.ACLs       Matching ACL {} against username @fehuehuf for command Utils:whoami
+2018-04-30 13:15:29,084 INFO     errbot.plugins.ACLs       Check if whoami is admin only command.
+2018-04-30 13:15:29,086 INFO     errbot.core               Processing command 'whoami' with parameters '' from @fehuehuf
+2018-04-30 13:15:36,986 INFO     errbot.plugins.ACLs       Matching ACL {} against username @fehuehuf for command Plugins:repos
+2018-04-30 13:15:36,990 INFO     errbot.plugins.ACLs       Check if repos is admin only command.
+2018-04-30 13:15:36,992 INFO     errbot.core               Processing command 'repos' with parameters '' from @fehuehuf
+2018-04-30 13:15:50,081 INFO     errbot.plugins.ACLs       Matching ACL {} against username @fehuehuf for command Health:status_plugins
+2018-04-30 13:15:50,087 INFO     errbot.plugins.ACLs       Check if status_plugins is admin only command.
+2018-04-30 13:15:50,090 INFO     errbot.core               Processing command 'status_plugins' with parameters '' from @fehuehuf

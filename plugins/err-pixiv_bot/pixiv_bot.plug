@@ -1,0 +1,10 @@
+[Core]
+name = pixiv_bot
+module = pixiv_bot
+
+[Documentation]
+description = You choose tag, then you get image of the tag on Pixiv.
+
+[Python]
+version = 3
+
