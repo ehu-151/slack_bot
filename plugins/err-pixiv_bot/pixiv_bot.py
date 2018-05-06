@@ -113,5 +113,5 @@ class Pixiv_bot(BotPlugin):
             self.send_stream_request(
                 self.build_identifier("#slack_bot"),
                 binary,
-                name='image',
+                name='bot_image',
             )
